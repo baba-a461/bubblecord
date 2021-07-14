@@ -1,0 +1,65 @@
+.wrapper-3NnKdC {
+    margin-top: 70px !important;
+    margin-bottom: 82px;
+    .scroller-1Bvpku{
+        background-color: var(--background-secondary);
+        border-radius: var(--border-radius);
+        padding-top:10px;
+        contain: none;
+        .tutorialContainer-2sGCg9{
+            position: fixed;
+            top: 0px;
+            padding:5px 0 5px 0;
+            background-color: var(--background-secondary);
+            border-radius: var(--border-radius);
+            &>*{
+                margin: 0%;
+            }
+        }
+        *>.guildSeparator-33mFX6{
+            display: none;
+        }
+        [style]+*>.guildSeparator-33mFX6{
+            display: block;
+        }
+        .expandedFolderBackground-1cujaW,.expandedFolderIconWrapper-Huv7rA{
+            background-color: var(--background-tertiary);
+        }
+    }
+} 
+.notice-3bPHh-+.layers-3iHuyZ {
+    margin-top: 10px;
+    .wrapper-3NnKdC .tutorialContainer-2sGCg9{
+        position: fixed;
+        top:calc(var(--titlebar-height) + 46px);
+        padding:5px 0 5px 0;
+        background-color: var(--background-secondary);
+        border-radius: var(--border-radius);
+    }
+} 
+.expandedFolderBackground-1cujaW{
+    background-color: var(--background-tertiary);
+    border-radius: var(--border-radius);
+}
+.svg-1X37T1{
+    foreignObject{
+        mask: unset ;
+        .icon-27yU2q,.childWrapper-anI2G9,.folderIconWrapper-1_bOZe,.circleIconButton-1QV--U{
+            border-radius: var(--border-radius);
+        }
+    }
+}
+.expanded .svg-1X37T1{
+    foreignObject{
+        mask: unset ;
+        .folderIconWrapper-1_bOZe{
+            border-radius: var(--border-radius) var(--border-radius) 0 0;
+        }
+    }
+}
+.baseShapeRound-1Mm1YW{
+    border-radius: calc(var(--border-radius) / 2);
+}
+.platform-win .tutorialContainer-2sGCg9{
+    top:23px !important;
+}
